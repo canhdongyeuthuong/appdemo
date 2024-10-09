@@ -13,7 +13,7 @@ import streamlit as st
 # Đọc và tiền xử lý dữ liệu
 @st.cache_data
 def load_data():
-    file_path = "Restaurant_revenue (1).csv"  # Thay bằng đường dẫn tới file của bạn
+    file_path = "Restaurant_revenue.csv"  # Thay bằng đường dẫn tới file của bạn
     data = pd.read_csv(file_path)
     
     # Mã hóa biến phân loại 'Cuisine_Type'
